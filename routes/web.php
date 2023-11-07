@@ -60,3 +60,6 @@ Route::get('w6', function () {
 Route::get('w7', function () {
     return view('w7');
 });
+
+Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
+Route::get('biodata', 'App\Http\Controllers\DosenController@biodata');
