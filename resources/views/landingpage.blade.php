@@ -227,6 +227,10 @@
             <a class="items" href="w5">W5</a>
             <a class="items" href="w6">W6</a>
             <a class="items" href="w7">W7</a>
+            <a class="items" href="/pegawai">Database Pegawai</a>
+            <a class="items" href="/nilaikuliah">Database Nilai Kuliah</a>
+            <a class="items" href="/keranjangbelanja">Database Keranjang Belanja</a>
+            <a class="items" href="/vga">Tugas Pra EAS (VGA)</a>
         </div>
     </div>
 
