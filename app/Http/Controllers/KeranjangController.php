@@ -14,7 +14,7 @@ class KeranjangController extends Controller
 		$keranjangbelanja = DB::table('keranjangbelanja')->get();
 
     	// mengirim data keranjangbelanja ke view index
-		return view('index',['keranjangbelanja' => $keranjangbelanja]);
+		return view('indexkeranjangbelanja',['keranjangbelanja' => $keranjangbelanja]);
 
 	}
 
