@@ -87,3 +87,13 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/batal/{ID}','App\Http\Controllers\KeranjangController@batal');
+
+//Route CRUD Tugas PraEAS (VGA)
+Route::get('/vga','App\Http\Controllers\VGAController@index');
+Route::get('/vga/tambah','App\Http\Controllers\VGAController@tambah');
+Route::post('/vga/store','App\Http\Controllers\VGAController@store');
+Route::get('/vga/edit/{kodevga}','App\Http\Controllers\VGAController@edit');
+Route::post('/vga/update','App\Http\Controllers\VGAController@update');
+Route::get('/vga/view/{kodevga}','App\Http\Controllers\VGAController@view');
+Route::get('/vga/hapus/{kodevga}','App\Http\Controllers\VGAController@hapus');
+Route::get('/vga/cari','App\Http\Controllers\VGAController@cari');
