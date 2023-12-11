@@ -97,3 +97,8 @@ Route::post('/vga/update','App\Http\Controllers\VGAController@update');
 Route::get('/vga/view/{kodevga}','App\Http\Controllers\VGAController@view');
 Route::get('/vga/hapus/{kodevga}','App\Http\Controllers\VGAController@hapus');
 Route::get('/vga/cari','App\Http\Controllers\VGAController@cari');
+
+//Route CRUD EAS Kode Soal CC (Kategori)
+Route::get('/kategori','App\Http\Controllers\KategoriController@index');
+Route::post('/kategori/pilih','App\Http\Controllers\KategoriController@pilih');
+
